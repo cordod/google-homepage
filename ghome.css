@@ -1,0 +1,147 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 7px;
+}
+
+/*Header for this webpage */
+#header {
+	display: block;
+	float: right;
+	height:40px;
+}
+
+ul li img {
+	margin-top: 5px;
+}
+
+.h {
+	vertical-align: 12px;
+}
+
+.h:hover {
+	text-decoration: underline;
+}
+
+.hGoo {
+	line-height: 10px;
+	vertical-align: text-top;
+}
+
+.hNot {
+	line-height: 6px;
+	vertical-align: text-top;
+}
+
+.hApp {
+	line-height: 6px;
+	vertical-align: text-top;
+}
+
+.hAcct {
+	padding-right: 20px;
+}
+
+/*Center with the logo, search box, buttons, and under text.*/
+#center {
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+}
+
+.logo {
+	padding-top: 20px;
+}
+
+.share {
+	display: inline;
+	position: relative;
+	margin-left: -40px;
+}
+
+/*Search box formatting */
+.BoxSearch {
+	height: 24px;
+	margin-top: 20px;
+	text-align: left;
+	vertical-align: center;
+	border: 1px solid #d4d4d4;
+	text-indent: 8px;
+	margin-left: 75px;
+}
+
+.BoxSearch:hover {
+	border-color: #b6b6b6;
+}
+
+form img {
+	position: relative;
+	margin-left: -30px;
+	top: 8px;
+}
+
+/*Search Buttons */
+.Search, .Lucky {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	height: 29px;
+	line-height: 27px;
+	padding-right: 7px;
+	padding-left: 7px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #f5f5f5;
+	border: 1px solid rgba(0,0,0,0.1);
+	color: #444;
+}
+
+.Search {
+	margin-left: 85px;
+}
+
+p {
+	padding-top: 30px;
+	margin-left: 75px;
+}
+
+p a {
+	text-decoration: none;
+}
+
+#footer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background-color: #f5f5f5;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	width: 97%;
+	padding: 7px 10px;
+	color: #6d6d6d;
+}
+
+.f_left:hover, .f_right:hover {
+	text-decoration: underline;
+}
+
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
